@@ -1,4 +1,4 @@
-## Markdown table
+## Markdown table example
 
 | In English | In Russian | In Finnish |
 | :-:        | :-:        | :-:        |
@@ -6,5 +6,3 @@
 | cat        | кошка      | kissa      |
 | I          | я          | minä       |
 | sun        | солнце     | aurinko    |
-
-
