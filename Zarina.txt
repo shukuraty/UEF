@@ -1,2 +1,1 @@
-Hello
-It's me...
+This is a new text in the file
