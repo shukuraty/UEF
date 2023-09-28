@@ -14,7 +14,7 @@ This is a working repository for a course about Finite-State grammar taught at U
 
 3 commit your additions, corrections or other editions to the remote repository
   - go to Terminal application or open it again
-  - execute `git commit -m "<YOUR LOG MESSAGE>" <FILENAME>`
+  - execute `git commit -m "YOUR LOG MESSAGE" FILENAME`
   - execute `git push`
   
 The command `git push` sends changes that you have made on the file to the remote repository, so that it will be updated for the other users.
