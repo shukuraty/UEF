@@ -6,3 +6,4 @@
 | cat        | кошка      | kissa      |
 | I          | я          | minä       |
 | sun        | солнце     | aurinko    |
+| word       | слово      | sana       |
