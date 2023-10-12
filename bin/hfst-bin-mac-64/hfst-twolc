@@ -1,0 +1,7 @@
+#!/bin/sh
+BINDIR=`echo $0 | sed 's/hfst-twolc//'`
+if [ $BINDIR == "" ]; then
+    htwolcpre1 $@ | htwolcpre2 $@ | htwolcpre3 $@
+else
+    $BINDIR/htwolcpre1 $@ | $BINDIR/htwolcpre2 $@ | $BINDIR/htwolcpre3 $@
+fi

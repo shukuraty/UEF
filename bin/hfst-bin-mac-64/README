@@ -1,0 +1,28 @@
+
+This package contains eight command line tools for 64-bit Mac OS X.
+The tools are created from HFST release 3.8.3.
+
+Dependencies:
+ /usr/lib/libedit.3.dylib
+ /usr/lib/libSystem.B.dylib
+ /usr/lib/libstdc++.6.dylib
+
+For more info about the tools, see:
+ <https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstXfst>
+ <https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstLexc>
+ <https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstTwolC>
+ <https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstLookUp>
+ <https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstOptimizedLookup>
+ <https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstProc>
+ <https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
+ <https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch2Fst>
+
+or run hfst-TOOLNAME --help
+
+For more info about the HFST project, see:
+ <http://hfst.sourceforge.net>
+
+
+Note: hfst-twolc is a shell script that depends on htwolcpre[1|2|3] files.
+These files should be kept in the same directory as hfst-twolc so that it
+will find them.
